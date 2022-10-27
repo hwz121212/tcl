@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="generic\regcomp.c" />
+    <ClCompile Include="generic\regerror.c" />
+    <ClCompile Include="generic\regexec.c" />
+    <ClCompile Include="generic\regfree.c" />
+    <ClCompile Include="generic\tclAlloc.c" />
+    <ClCompile Include="generic\tclAssembly.c" />
+    <ClCompile Include="generic\tclAsync.c" />
+    <ClCompile Include="generic\tclBasic.c" />
+    <ClCompile Include="generic\tclBinary.c" />
+    <ClCompile Include="generic\tclCkalloc.c" />
+    <ClCompile Include="generic\tclClock.c" />
+    <ClCompile Include="generic\tclCmdAH.c" />
+    <ClCompile Include="generic\tclCmdIL.c" />
+    <ClCompile Include="generic\tclCmdMZ.c" />
+    <ClCompile Include="generic\tclCompCmds.c" />
+    <ClCompile Include="generic\tclCompCmdsGR.c" />
+    <ClCompile Include="generic\tclCompCmdsSZ.c" />
+    <ClCompile Include="generic\tclCompExpr.c" />
+    <ClCompile Include="generic\tclCompile.c" />
+    <ClCompile Include="generic\tclConfig.c" />
+    <ClCompile Include="generic\tclDate.c" />
+    <ClCompile Include="generic\tclDictObj.c" />
+    <ClCompile Include="generic\tclDisassemble.c" />
+    <ClCompile Include="generic\tclEncoding.c" />
+    <ClCompile Include="generic\tclEnsemble.c" />
+    <ClCompile Include="generic\tclEnv.c" />
+    <ClCompile Include="generic\tclEvent.c" />
+    <ClCompile Include="generic\tclExecute.c" />
+    <ClCompile Include="generic\tclFCmd.c" />
+    <ClCompile Include="generic\tclFileName.c" />
+    <ClCompile Include="generic\tclGet.c" />
+    <ClCompile Include="generic\tclHash.c" />
+    <ClCompile Include="generic\tclHistory.c" />
+    <ClCompile Include="generic\tclIndexObj.c" />
+    <ClCompile Include="generic\tclInterp.c" />
+    <ClCompile Include="generic\tclIO.c" />
+    <ClCompile Include="generic\tclIOCmd.c" />
+    <ClCompile Include="generic\tclIOGT.c" />
+    <ClCompile Include="generic\tclIORChan.c" />
+    <ClCompile Include="generic\tclIORTrans.c" />
+    <ClCompile Include="generic\tclIOSock.c" />
+    <ClCompile Include="generic\tclIOUtil.c" />
+    <ClCompile Include="generic\tclLink.c" />
+    <ClCompile Include="generic\tclListObj.c" />
+    <ClCompile Include="generic\tclLiteral.c" />
+    <ClCompile Include="generic\tclLoad.c" />
+    <ClCompile Include="generic\tclLoadNone.c" />
+    <ClCompile Include="generic\tclMain.c" />
+    <ClCompile Include="generic\tclNamesp.c" />
+    <ClCompile Include="generic\tclNotify.c" />
+    <ClCompile Include="generic\tclObj.c" />
+    <ClCompile Include="generic\tclOO.c" />
+    <ClCompile Include="generic\tclOOBasic.c" />
+    <ClCompile Include="generic\tclOOCall.c" />
+    <ClCompile Include="generic\tclOODefineCmds.c" />
+    <ClCompile Include="generic\tclOOInfo.c" />
+    <ClCompile Include="generic\tclOOMethod.c" />
+    <ClCompile Include="generic\tclOOStubInit.c" />
+    <ClCompile Include="generic\tclOOStubLib.c" />
+    <ClCompile Include="generic\tclOptimize.c" />
+    <ClCompile Include="generic\tclPanic.c" />
+    <ClCompile Include="generic\tclParse.c" />
+    <ClCompile Include="generic\tclPathObj.c" />
+    <ClCompile Include="generic\tclPipe.c" />
+    <ClCompile Include="generic\tclPkg.c" />
+    <ClCompile Include="generic\tclPkgConfig.c" />
+    <ClCompile Include="generic\tclPosixStr.c" />
+    <ClCompile Include="generic\tclPreserve.c" />
+    <ClCompile Include="generic\tclProc.c" />
+    <ClCompile Include="generic\tclRegexp.c" />
+    <ClCompile Include="generic\tclResolve.c" />
+    <ClCompile Include="generic\tclResult.c" />
+    <ClCompile Include="generic\tclScan.c" />
+    <ClCompile Include="generic\tclStringObj.c" />
+    <ClCompile Include="generic\tclStrToD.c" />
+    <ClCompile Include="generic\tclStubInit.c" />
+    <ClCompile Include="generic\tclStubLib.c" />
+    <ClCompile Include="generic\tclTest.c" />
+    <ClCompile Include="generic\tclTestObj.c" />
+    <ClCompile Include="generic\tclTestProcBodyObj.c" />
+    <ClCompile Include="generic\tclThread.c" />
+    <ClCompile Include="generic\tclThreadAlloc.c" />
+    <ClCompile Include="generic\tclThreadJoin.c" />
+    <ClCompile Include="generic\tclThreadStorage.c" />
+    <ClCompile Include="generic\tclThreadTest.c" />
+    <ClCompile Include="generic\tclTimer.c" />
+    <ClCompile Include="generic\tclTomMathInterface.c" />
+    <ClCompile Include="generic\tclTomMathStubLib.c" />
+    <ClCompile Include="generic\tclTrace.c" />
+    <ClCompile Include="generic\tclUniData.c" />
+    <ClCompile Include="generic\tclUtf.c" />
+    <ClCompile Include="generic\tclUtil.c" />
+    <ClCompile Include="generic\tclVar.c" />
+    <ClCompile Include="generic\tclZlib.c" />
+    <ClCompile Include="win\cat.c" />
+    <ClCompile Include="win\nmakehlp.c" />
+    <ClCompile Include="win\tclAppInit.c" />
+    <ClCompile Include="win\tclWin32Dll.c" />
+    <ClCompile Include="win\tclWinChan.c" />
+    <ClCompile Include="win\tclWinConsole.c" />
+    <ClCompile Include="win\tclWinDde.c" />
+    <ClCompile Include="win\tclWinError.c" />
+    <ClCompile Include="win\tclWinFCmd.c" />
+    <ClCompile Include="win\tclWinFile.c" />
+    <ClCompile Include="win\tclWinInit.c" />
+    <ClCompile Include="win\tclWinLoad.c" />
+    <ClCompile Include="win\tclWinNotify.c" />
+    <ClCompile Include="win\tclWinPipe.c" />
+    <ClCompile Include="win\tclWinReg.c" />
+    <ClCompile Include="win\tclWinSerial.c" />
+    <ClCompile Include="win\tclWinSock.c" />
+    <ClCompile Include="win\tclWinTest.c" />
+    <ClCompile Include="win\tclWinThrd.c" />
+    <ClCompile Include="win\tclWinTime.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\regcustom.h" />
+    <ClInclude Include="include\regerrs.h" />
+    <ClInclude Include="include\regex.h" />
+    <ClInclude Include="include\regguts.h" />
+    <ClInclude Include="include\tcl.h" />
+    <ClInclude Include="include\tclCompile.h" />
+    <ClInclude Include="include\tclDecls.h" />
+    <ClInclude Include="include\tclFileSystem.h" />
+    <ClInclude Include="include\tclInt.h" />
+    <ClInclude Include="include\tclIntDecls.h" />
+    <ClInclude Include="include\tclIntPlatDecls.h" />
+    <ClInclude Include="include\tclIO.h" />
+    <ClInclude Include="include\tclOO.h" />
+    <ClInclude Include="include\tclOODecls.h" />
+    <ClInclude Include="include\tclOOInt.h" />
+    <ClInclude Include="include\tclOOIntDecls.h" />
+    <ClInclude Include="include\tclParse.h" />
+    <ClInclude Include="include\tclPlatDecls.h" />
+    <ClInclude Include="include\tclPort.h" />
+    <ClInclude Include="include\tclRegexp.h" />
+    <ClInclude Include="include\tclStringRep.h" />
+    <ClInclude Include="include\tclStringTrim.h" />
+    <ClInclude Include="include\tclTomMath.h" />
+    <ClInclude Include="include\tclTomMathDecls.h" />
+    <ClInclude Include="include\tclTomMathInt.h" />
+    <ClInclude Include="include\tclWinInt.h" />
+    <ClInclude Include="include\tclWinPort.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>staticlibtemplate</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>STATIC_BUILD;TCL_THREADS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MP_FIXED_CUTOFFS;MP_NO_STDINT;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;src;libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>STATIC_BUILD;TCL_THREADS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MP_FIXED_CUTOFFS;MP_NO_STDINT;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;src;libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

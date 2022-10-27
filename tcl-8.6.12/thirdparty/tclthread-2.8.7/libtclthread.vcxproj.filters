@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{d0a7b37f-c5ba-4a4e-af4d-7c080183d46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0db4b20d-0d87-4120-99bf-f92ae88d8e2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\psGdbm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\psLmdb.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tclXkeylist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadPoolCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadSpCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadSvCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadSvKeylistCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadSvListCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threadNs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\psGdbm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\psLmdb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclThreadInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclXkeylist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threadSpCmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threadSvCmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threadSvKeylistCmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threadSvListCmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

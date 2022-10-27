@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{1326c239-a551-44be-a634-0aada0027085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f603331a-5b38-4e1c-844e-568add6a9603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic">
+      <UniqueIdentifier>{5fed729a-8fa9-4f61-8064-cf67c378bea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win\tclAppInit.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinTime.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinThrd.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinTest.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinSock.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinSerial.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinReg.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinPipe.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinNotify.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinLoad.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinInit.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinFile.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinFCmd.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinError.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinDde.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinConsole.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWinChan.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\tclWin32Dll.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\nmakehlp.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\cat.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\regcomp.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\regerror.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\regexec.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\regfree.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclAlloc.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclAssembly.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclAsync.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclBasic.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclBinary.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCkalloc.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclClock.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCmdAH.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCmdIL.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCmdMZ.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCompCmds.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCompCmdsGR.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCompCmdsSZ.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCompExpr.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclCompile.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclConfig.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclDate.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclDictObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclDisassemble.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclEncoding.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclEnsemble.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclEnv.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclEvent.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclExecute.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclFCmd.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclFileName.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclGet.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclHash.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclHistory.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIndexObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclInterp.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIO.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIOCmd.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIOGT.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIORChan.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIORTrans.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIOSock.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclIOUtil.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclLink.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclListObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclLiteral.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclLoad.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclLoadNone.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclMain.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclNamesp.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclNotify.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOO.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOOBasic.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOOCall.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOODefineCmds.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOOInfo.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOOMethod.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOOStubInit.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOOStubLib.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclOptimize.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPanic.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclParse.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPathObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPipe.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPkg.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPkgConfig.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPosixStr.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclPreserve.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclProc.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclRegexp.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclResolve.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclResult.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclScan.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclStringObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclStrToD.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclStubInit.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclStubLib.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTest.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTestObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTestProcBodyObj.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclThread.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclThreadAlloc.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclThreadJoin.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclThreadStorage.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclThreadTest.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTimer.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTomMathInterface.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTomMathStubLib.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclTrace.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclUniData.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclUtf.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclUtil.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclVar.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tclZlib.c">
+      <Filter>generic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\regcustom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\regerrs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\regex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\regguts.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tcl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclCompile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclFileSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclIntDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclIntPlatDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclIO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclOO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclOODecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclOOInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclOOIntDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclParse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclPlatDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclPort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclRegexp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclStringRep.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclStringTrim.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclTomMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclTomMathDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclTomMathInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclWinInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tclWinPort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

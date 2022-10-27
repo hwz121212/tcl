@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{a8bc8c54-c1dd-433e-bce2-147beee00365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c648541d-9355-474d-aa96-52cca10d98af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\fakepq.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\int2ptr_ptr2int.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pqStubs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pqStubInit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tdbcpostgres.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

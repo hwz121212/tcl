@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{8531bd3f-d3e5-4d1e-bc7f-453d3f380d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c2d41a7d-4631-4e1f-9a30-337e3b969959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\tdbc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tdbcDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tdbcInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\tdbc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tdbcStubInit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tdbcStubLib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tdbcTokenize.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d530988-90d8-4ea6-89b2-4fbb45b877da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6d5bc2df-8cf7-45d4-a167-b25e7d86e3cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\itcl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itcl2TclOO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itclDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itclInt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itclIntDecls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itclMigrate2TclCore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itclTclIntStubsFcn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\itcl2TclOO.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclBase.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclBuiltin.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclClass.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclCmd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclEnsemble.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclHelpers.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclInfo.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclLinkage.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclMethod.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclMigrate2TclCore.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclObject.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclParse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclResolve.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclStubInit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclStubLib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclStubs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclTclIntStubsFcn.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclTestRegisterC.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itclUtil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{47f035fb-0689-4e0d-8eb1-a51bba89f67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{21b5f943-2823-4034-be5f-c0f7b4276cdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\fakesql.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\int2ptr_ptr2int.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\odbcStubs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\odbcStubInit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tdbcodbc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
